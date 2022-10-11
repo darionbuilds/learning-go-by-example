@@ -17,9 +17,9 @@ paths:
       produces:
         - text/plain
       responses:
-        '200':
+        200:
           description: OK message.
-          scheme:
+          schema:
             type: string
             enum:
               - OK
